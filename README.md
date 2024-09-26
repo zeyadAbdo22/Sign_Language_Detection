@@ -1,12 +1,10 @@
-Sign Language Detection is a machine learning-based project aimed at recognizing American Sign Language (ASL) alphabet gestures using computer vision. The system leverages a Convolutional Neural Network (CNN) model trained on a dataset of ASL hand signs to detect and interpret gestures in real time via webcam or through uploaded images.
+Sign Language Detection is a machine learning project that utilizes Support Vector Machine (SVM) and Random Forest classifiers to recognize American Sign Language (ASL) alphabet gestures. The system is designed to interpret hand signs in real time using a webcam or through uploaded images, converting these gestures into corresponding letters of the alphabet.
 
-This project provides an accessible way for users to bridge the communication gap with individuals who rely on sign language, by converting visual hand signs into corresponding letters of the alphabet. With support for the full ASL alphabet, along with 'space' and 'nothing' gestures, the system facilitates seamless interaction between signers and non-signers.
+The application is intended to bridge communication between individuals who use ASL and those who may not be familiar with it. With support for the full ASL alphabet (A-Z) along with 'space' and 'nothing' gestures, this tool provides an accessible platform for interaction and education.
 
-The real-time detection capabilities make the application suitable for a variety of use cases, such as educational tools for learning ASL or assistive technology for communication.
+Key technologies include:
 
-Key technologies used in this project include:
-
-TensorFlow/Keras: For building and training the CNN model.
-OpenCV: For real-time image processing and webcam integration.
-Flask: For providing a user-friendly web interface.
-Whether you're looking to detect sign language in real time or analyze hand gestures from pre-captured images, this project offers a practical solution to enhance communication through the power of machine learning.
+SVM: A supervised learning algorithm used for gesture classification.
+OpenCV: For image processing and webcam integration.
+Flask: To create an easy-to-use web interface.
+This project is a practical implementation of machine learning models to enhance communication through sign language recognition, providing an educational and assistive platform.
